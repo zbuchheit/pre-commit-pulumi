@@ -1,0 +1,7 @@
+- id: pulumi-state-check
+  name: Detect Pulumi State File check
+  description: This hook checks for the presence of a Pulumi state file, requires golang
+  entry: pulumi-state-check
+  language: golang
+  files: \.json$
+  pass_filenames: true

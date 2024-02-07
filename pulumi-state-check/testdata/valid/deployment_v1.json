@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "deployment": {
+      "manifest": {
+        "time": "2020-01-01T01:01:01.000Z",
+        "magic": "example",
+        "version": "v1"
+      }
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "deployment": {
+      "manifest": {
+        "time": "2022-01-01T01:01:01.000Z",
+        "magic": "example",
+        "version": "v3"
+      },
+      "secrets_providers": {
+        "type": "service",
+        "state": {
+          "url": "https://api.pulumi.com",
+          "owner": "example",
+          "project": "exampleProject",
+          "stack": "exampleStack"
+        }
+      }
+    }
+  }
+  
