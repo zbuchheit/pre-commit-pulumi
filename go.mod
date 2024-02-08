@@ -2,10 +2,7 @@ module pre-commit-pulumi
 
 go 1.21.6
 
-require (
-	github.com/pulumi/pulumi/sdk/v3 v3.104.2
-	github.com/xeipuuv/gojsonschema v1.2.0
-)
+require github.com/pulumi/pulumi/sdk/v3 v3.104.2
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
@@ -68,8 +65,6 @@ require (
 	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
-	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
-	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/zclconf/go-cty v1.13.2 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
