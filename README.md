@@ -10,7 +10,7 @@ This repository contains a pre-commit plugin designed to prevent accidental comm
 
 ## Installation
 
-1. Add Pre-commit Hook
+1. Add Pre-commit Hook Config File
 
     In the root of your repository, create or update a `.pre-commit-config.yaml` file with the following content:
 
@@ -27,10 +27,10 @@ This repository contains a pre-commit plugin designed to prevent accidental comm
     ```
 
 1. Run `pre-commit install`
-```bash
-$ pre-commit install
-pre-commit installed at .git/hooks/pre-commit
-```
+    ```bash
+    $ pre-commit install
+    pre-commit installed at .git/hooks/pre-commit
+    ```
 
 ## Usage
 
@@ -47,7 +47,8 @@ To run the checks on specific files, use:
 pre-commit run pulumi-state-check --files path/to/file.json
 ```
 
->[NOTE!] If you commit often and only desire to check on push you can change add `pre-push` to `default_install_hook_types` and `stages`
+> [!NOTE] 
+> If you commit often and only desire to check on push you can change add `pre-push` to `default_install_hook_types` and `stages`
 
 ## Contributing
 
