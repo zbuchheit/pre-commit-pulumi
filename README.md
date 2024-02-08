@@ -20,7 +20,7 @@ This repository contains a pre-commit plugin designed to prevent accidental comm
     - pre-commit
     repos:
     -   repo: https://github.com/zbuchheit/pre-commit-pulumi
-        rev: 8704bcb
+        rev: v0.0.1
         hooks:
         -   id: pulumi-state-check
             stages: [pre-commit] #add pre-push if desired
