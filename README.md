@@ -15,7 +15,7 @@ This repository contains a pre-commit plugin designed to prevent accidental comm
     In the root of your repository, create or update a `.pre-commit-config.yaml` file with the following content:
 
     ```yaml
-    default_install_hook_types: 
+    default_install_hook_types:
     # - pre-push # if you want to run before a push
     - pre-commit
     repos:
@@ -47,7 +47,7 @@ To run the checks on specific files, use:
 pre-commit run pulumi-state-check --files path/to/file.json
 ```
 
-> [!NOTE] 
+> [!NOTE]
 > If you commit often and only desire to check on push you can change add `pre-push` to `default_install_hook_types` and `stages`
 
 ## Contributing
@@ -57,4 +57,3 @@ We welcome contributions and improvements to this plugin! Please feel free to fo
 ## License
 
 This project is licensed under the [Apache 2.0 License](LICENSE) - see the LICENSE file for details.
-

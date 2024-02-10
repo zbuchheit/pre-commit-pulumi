@@ -8,3 +8,8 @@ repos:
       - id: detect-private-key
       - id: end-of-file-fixer
       - id: trailing-whitespace
+-  repo: https://github.com/golangci/golangci-lint
+   rev: v1.56.1
+   hooks:
+     - id: golangci-lint-full
+       args: [--timeout=5m]
