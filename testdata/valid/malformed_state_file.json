@@ -1,0 +1,8 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2024-02-06T15:55:11.29838-08:00",
+            "magic": "magicstring,
+            "version": "v3.104.2"
+        }

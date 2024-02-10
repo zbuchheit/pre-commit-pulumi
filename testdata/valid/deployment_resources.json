@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2024-02-12T11:40:07.384739-08:00",
+            "magic": "magicString",
+            "version": "v3.104.2"
+        },
+        "secrets_providers": {
+            "type": "service",
+            "state": {
+                "url": "https://api.pulumi.com",
+                "owner": "zbuchheit-pulumi-corp",
+                "project": "aws-python",
+                "stack": "dev"
+            }
+        },
+        "resources": [
+        ]
+    }
+}
