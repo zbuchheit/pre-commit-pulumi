@@ -4,5 +4,3 @@
   entry: pulumi-state-check
   language: golang
   files: \.json$
-  pass_filenames: false
-  args: [--all]
