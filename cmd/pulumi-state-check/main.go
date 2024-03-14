@@ -21,7 +21,7 @@ func parseFlags(args []string) (Config, error) {
 		return config, err
 	}
 
-	config.FilePaths = flag.Args()
+	config.FilePaths = flagSet.Args()
 	return config, nil
 }
 
