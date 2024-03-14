@@ -35,7 +35,7 @@ func run(args []string) int {
 	if !config.All && len(config.FilePaths) == 0 {
 		fmt.Println("No file paths provided.")
 		flag.PrintDefaults()
-		return 2
+		return 0
 	}
 
 	scanner := utils.NewDirectoryScanner(utils.NewPulumiFileEvaluator())
