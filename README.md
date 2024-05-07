@@ -1,6 +1,9 @@
 # Pre-Commit Pulumi
 
-This repository contains a pre-commit plugin designed to prevent accidental commits of Pulumi state files into your version control system. While the Pulumi state file is encrypted by detault, you still typically do not want to store these files in source control.
+This repository contains a pre-commit plugin designed to prevent accidental commits of Pulumi state files into your version control system. 
+
+> [!NOTE]  
+> Although all secret information in a Pulumi state file is encrypted by default, you still typically do not want to store these files in source control.
 
 ## Prerequisites
 
